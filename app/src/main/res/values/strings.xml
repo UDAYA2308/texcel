@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Texcel</string>
+    <string-array name="location">
+        <item>VKJ</item>
+        <item>Old Canopy</item>
+        <item>Canopy</item>
+        <item>Hostel</item>
+    </string-array>
+
+    <string-array name="locations">
+        <item>VKJ</item>
+        <item>Old Canopy</item>
+        <item>Canopy</item>
+        <item>Hostel</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
+
+    <string-array name="manage">
+        <item>Host</item>
+        <item>Joined</item>
+    </string-array>
+
+    <string-array name="mode">
+        <item>Cash</item>
+        <item>Online</item>
+    </string-array>
+
+    <string-array name="t_shirt">
+        <item>Blue</item>
+        <item>Grey</item>
+    </string-array>
+
+    <string-array name="report">
+        <item>Total</item>
+        <item>Date</item>
+        <item>Today</item>
+    </string-array>
+
+    <string-array name="events">
+        <item>--Select--</item>
+        <item>Colosseum</item>
+        <item>Daksh</item>
+        <item>Kuruksastra</item>
+    </string-array>
+
+    <string-array name="default_option">
+        <item>---Select---</item>
+    </string-array>
+
+    <string name="reg">Registration number</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="tshirt">T-shirt Model</string>
+    <string name="event">Event</string>
+    <string name="size">Size</string>
+    <string name="due">Due Amount</string>
+    <string name="amt">Amount Paid</string>
+    <string name="mode">Mode of Payment</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="home">Home</string>
+    <string name="location">Location</string>
+    <string name="reg_name">Seller</string>
+    <string name="sell">Order</string>
+    <string name="report">Report</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="deliver">Delivered</string>
+    <string name="update">Update</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

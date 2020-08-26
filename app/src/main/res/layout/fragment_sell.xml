@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTintMode="screen"
+    android:background="@color/white"
+    tools:context=".Sell">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:padding="20dp"
+               
+                android:textSize="20dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/location"
+                android:id="@+id/loc"
+                android:layout_margin="10dp"
+                
+                android:spinnerMode="dialog"
+                android:outlineAmbientShadowColor="@color/white"
+                android:padding="15dp"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="20dp"
+                app:errorEnabled="true"
+                android:id="@+id/reg_no"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/reg"
+                    android:inputType="number"
+                    android:maxLength="9"
+                   
+                    android:outlineSpotShadowColor="#ffffff"
+                    android:outlineAmbientShadowColor="#ffffff"
+                    android:shadowColor="#ffffff"
+                    android:textColorHighlight="#ffffff"
+                    android:textColorLink="#ffffff"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="20dp"
+                app:errorEnabled="true"
+                android:id="@+id/name"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                   
+                    android:outlineSpotShadowColor="#ffffff"
+                    android:outlineAmbientShadowColor="#ffffff"
+                    android:shadowColor="#ffffff"
+                    android:textColorHighlight="#ffffff"
+                    android:textColorLink="#ffffff"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="20dp"
+                app:errorEnabled="true"
+                android:id="@+id/phone"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/phone"
+                    android:inputType="number"
+                    android:maxLength="10"
+                   
+                    android:outlineSpotShadowColor="#ffffff"
+                    android:outlineAmbientShadowColor="#ffffff"
+                    android:shadowColor="#ffffff"
+                    android:textColorHighlight="#ffffff"
+                    android:textColorLink="#ffffff"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T-Shirt"
+                android:padding="20dp"
+               
+                android:outlineSpotShadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:textColorLink="#ffffff"
+                android:textSize="20dp"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_shirt"
+                android:spinnerMode="dialog"
+                android:layout_margin="10dp"
+                android:entries="@array/t_shirt"
+                android:padding="15dp"
+                
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/size"
+                android:textSize="20dp"
+                android:padding="20dp"
+               
+                android:outlineSpotShadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:textColorLink="#ffffff"
+
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/size"
+                android:spinnerMode="dialog"
+                android:entries="@array/size"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/size_list"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_tshirt"
+                android:text="+ Add size"
+                android:padding="20dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/holo_blue_light"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="20dp"
+                android:id="@+id/amt"
+                app:errorEnabled="true"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/amt"
+                    android:inputType="number"
+                   
+                    android:outlineSpotShadowColor="#ffffff"
+                    android:outlineAmbientShadowColor="#ffffff"
+                    android:shadowColor="#ffffff"
+                    android:textColorHighlight="#ffffff"
+                    android:textColorLink="#ffffff"
+
+                    android:text="0"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mode"
+               
+                android:outlineSpotShadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:textColorLink="#ffffff"
+
+                android:textSize="20dp"
+                android:padding="20dp"
+                />
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mode"
+                android:spinnerMode="dialog"
+                android:entries="@array/mode"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Submit"
+                android:fontFamily="@font/baloo_thambi"
+                android:id="@+id/submit"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

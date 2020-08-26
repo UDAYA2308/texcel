@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:id="@+id/group1">
+<item android:title="@string/home"
+       android:id="@+id/home_"
+    />
+    </group>
+
+    <group android:id="@+id/group2">
+    <item android:title="@string/sell"
+            android:id="@+id/sell"
+        />
+    </group>
+
+    <group android:id="@+id/group3">
+    <item android:title="@string/report"
+            android:id="@+id/report"
+        />
+
+    </group>
+
+    <group android:id="@+id/group4">
+    <item android:title="Due List"
+        android:id="@+id/due"/>
+
+</group>
+
+    <group android:id="@+id/group5">
+    <item android:title="@string/update"
+        android:id="@+id/update_"/>
+
+    </group>
+
+
+    <group android:id="@+id/group6">
+
+    <item android:id="@+id/stats_"
+        android:title="Stats"/>
+
+    </group>
+
+    <group android:id="@+id/group7">
+
+    <item android:id="@+id/deliver_"
+        android:title="Deliver"/>
+
+    </group>
+
+    <group android:id="@+id/group8">
+
+        <item android:id="@+id/account"
+            android:title="Account"
+            />
+    </group>
+
+
+    <group android:id="@+id/group9">
+
+        <item android:id="@+id/switch_"
+            android:title="Rooms"
+            />
+    </group>
+
+</menu>

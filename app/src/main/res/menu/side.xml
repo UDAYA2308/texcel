@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/create_"
+        android:title="Create"
+        />
+    <item
+        android:title="Join"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        android:id="@+id/join_"
+        />
+
+</menu>
